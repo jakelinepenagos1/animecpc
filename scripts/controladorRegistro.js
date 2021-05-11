@@ -12,14 +12,55 @@ function recibirDatos(){
     let passwordValor=password.value;
 
 
-    validarFormulario(nombreValor,emailValor,passwordValor)
+    validarCaminos(nombreValor,emailValor,passwordValor)
     
 }
-function validarFormulario(nombreValor,emailValor,passwordValor){
+function validarCaminos(nombreValor,emailValor,passwordValor){
 
-    if(nombreValor==""&& emailValor==""&&fechaValor==""&&contactoValor==""&&passwordValor==""&&password2Valor=="")
+    if(nombreValor==""&& emailValor==""&&passwordValor==""){
 
     nombre.classList.add("is-invalid");
     email.classList.add("is-invalid");
     password.classList.add("is-invalid");
+
+    }else if(emailValor==""&&passwordValor==""){
+
+    nombre.classList.add("is-invalid");
+    email.classList.add("is-invalid");
+    password.classList.add("is-invalid");
+    
+    }else if(nombreValor==""&&passwordValor==""){
+        
+    nombre.classList.add("is-invalid");
+    email.classList.add("is-invalid");
+    password.classList.add("is-invalid");
+    
+    }else if(nombreValor==""&& emailValor==""){
+        
+    nombre.classList.add("is-invalid");
+    email.classList.add("is-invalid");
+    password.classList.add("is-invalid");
+    
+    }else if(nombreValor==""){
+
+    nombre.classList.add("is-invalid");
+    email.classList.add("is-invalid");
+    password.classList.add("is-invalid");
+
+    
+    }else if(emailValor==""){
+
+    nombre.classList.add("is-invalid");
+    email.classList.add("is-invalid");
+    password.classList.add("is-invalid");
+    
+    }else if(passwordValor==""){
+        
+    nombre.classList.add("is-invalid");
+    email.classList.add("is-invalid");
+    password.classList.add("is-invalid");
+    }
+    
 }
+
+
