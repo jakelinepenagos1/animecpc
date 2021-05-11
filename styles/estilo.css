@@ -1,0 +1,81 @@
+#logo img{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+
+    font-family: 'Lobster', cursive;
+}
+header nav{
+    text-align: center;
+}
+header nav li{
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+    color: rgb(59, 58, 58);
+}
+
+header nav a{
+    text-decoration: none;
+    color: inherit;
+}
+header nav a:hover{
+
+    color: rgb(251, 199, 55);
+    text-decoration: underline;
+    text-decoration-color:rgb(251, 199, 55) ;
+}
+.imgBanner{
+    height: 500px;
+}
+
+.fondo1{
+    background-color:rgb(151, 0, 0);
+    color: rgb(251, 199, 55);
+}
+
+.fondo1 a i:hover{
+    transform: scale(1.8);
+    padding-bottom: 15px;
+    color: rgb(216, 240, 238);
+    
+    
+}
+.fondo{
+    background-color: black;
+    
+}
+.modal-body {
+    background-color: black;
+    color: blanchedalmond;
+}
+.modal-footer {
+    background-color: black;
+    color: blanchedalmond;
+}
+.modal-header {
+    background-color: black;
+    color: blanchedalmond;
+}
+.imgpersonajes{
+    height: 100px;
+    width: 100px;
+}
+video{
+    height: 450px;
+    width: 450px;
+}
+footer{
+    background-color: rgb(151, 0, 0);
+    color: rgb(251, 199, 55) ;
+}
+
+.fondomovil{
+    background-image: url(../img/banner3.jpg);
+    height: 600px;
+    width: 1400px;
+    background-attachment: fixed;
+}

@@ -1,0 +1,16 @@
+.fondo{
+    background-color: rgb(247, 205, 89);
+}
+
+.navbar{
+    background-color: rgb(40, 214, 214);
+}
+footer{
+    background-color: rgb(223, 83, 59);
+    font-family: 'Lobster', cursive;
+    font-size: 23px;
+}
+header{
+
+    font-family: 'Lobster', cursive;
+}

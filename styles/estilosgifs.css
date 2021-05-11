@@ -1,0 +1,98 @@
+
+#banner{
+
+    background-image: url(../img/banner1.png);
+    background-size: cover;
+    padding: 20% 2%;
+    position: relative;
+    z-index: 1;
+    background-attachment: fixed;
+}
+
+#banner::after{
+
+    position: absolute;
+    background-color: black;
+    content: '';
+    height: 100%;
+    width: 100%;
+    left:0 ;
+    top: 0;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+#banner h1{
+
+    color:white;
+    position: relative;
+    font-size: 4rem;
+}
+.bg-dark{
+
+    background-color: transparent !important;
+}
+.zoom{
+
+    overflow: hidden;
+}
+
+.zoom img{
+
+    transition: 0.5s ease;
+
+}
+.zoom:hover img{
+
+    transform: scale(1.5);
+}
+.descripcion{
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 1.2rem;
+}
+.fondoIcono{
+
+    color: black;
+}
+.fondo2 {
+
+    background-color: rgb(35, 39, 35);
+}
+.zoom2{
+
+    overflow: hidden;
+}
+
+.zoom2 img{
+
+    transition: 0.5s filter 1s ease;
+    filter: grayscale(100%);
+
+}
+.zoom2:hover img{
+
+    transform: scale(1);
+    filter: grayscale(0);
+}
+footer{
+
+    background-color:rgb(117, 42, 42);
+    color:rgb(31, 26, 16);
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+}
+.fondoIcono2{
+
+    color:rgb(19, 16, 9);
+}
+main{
+    background-color: rgb(172, 203, 206);
+}
+
+.fondoi{
+    background-color: rgb(158, 162, 163);
+}
+header{
+font-family: 'Lobster', cursive;
+
+}
