@@ -1,0 +1,36 @@
+.fondo{
+    background-color: rgb(255, 122, 199);
+}
+
+footer{
+    background-color: black;
+    font-family: 'Lobster', cursive;
+    color:white;
+    font-size: 20px;
+    
+}
+header{
+
+    font-family: 'Lobster', cursive;
+   
+}
+.imagen{
+    height: 500px;
+    width: 400px;
+}
+.imagenp{
+    height: 300px;
+    width: 200px;
+}
+.letra{
+    text-align: right;
+}
+
+.fondomovil{
+    background-image: url(../img/Mokke.png);
+    height: 600px;
+    width: 1400px;
+    background-attachment: fixed;
+}
+
+
