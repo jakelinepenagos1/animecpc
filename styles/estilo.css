@@ -79,3 +79,14 @@ footer{
     width: 1400px;
     background-attachment: fixed;
 }
+main .modal-body a{
+    text-decoration: none;
+    color: inherit;
+}
+main .modal-body a:hover{
+
+    color: rgb(251, 199, 55);
+    text-decoration: underline;
+    text-decoration-color:rgb(251, 199, 55) ;
+}
+

@@ -2,6 +2,8 @@ let boton=document.getElementById("botonEnvio");
 let nombre=document.getElementById("nombreUsuraio");
 let email=document.getElementById("correoUsuario");
 let password=document.getElementById("passwordUsuario");
+let modal=new bootstrap.Modal(document.getElementById("mensaje"));
+let formulario=document.getElementById("formulario");
 
 let llave1;
 let llave2;
@@ -92,7 +94,14 @@ function conectarAPI(){
     fetch(url,parametros)
 
     .then(repuesta=>repuesta.json())
-    .then(datos=>console.log(datos));
+    .then(datos=>validarRespuesta(datos));
 }
 
+function validarRespuesta(datos){
 
+    if(datos.estado){
+      modal.show();
+      formulario.reset();
+
+    }
+}
